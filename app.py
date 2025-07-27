@@ -10,6 +10,7 @@ Email Validation API
 GET /validate?email=test@gmail.com
 """
 
+import os
 from flask import Flask, request, jsonify
 import dns.resolver
 import re
